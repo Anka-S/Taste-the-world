@@ -26,7 +26,10 @@ body {
 }
 
 /* Nav Bar */
-
+.img-fluid {
+    height: 300px;
+    width: 100%;
+}
 #menu {
     display: flex;
     justify-content: space-evenly;
@@ -37,3 +40,22 @@ body {
     text-decoration: none;
 }
 
+#borshch {
+    margin: 20px 0;
+}
+
+/*Unordered List*/
+
+.unordered-list{
+    padding: 15px;
+
+}
+.unordered-list > li {
+    list-style-type: none;
+}
+
+/*Ordered List*/
+.ordered-list li {
+    padding: 15px;
+
+}
