@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+
+#hero {
+    height: 700px;
+    width: 100%;
+    background: url(../images/Cuisine\ of\ the\ World.jpg) no-repeat center center/cover;
+    opacity: 0.8;
+}
+
+#hero h2 {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 6em; 
+    text-align: center;
+    
+}
+
+/* Nav Bar */
+
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 80%;
+    margin-left: 5%;
+    list-style-type: none;
+    text-decoration: none;
+}
+
