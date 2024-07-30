@@ -11,7 +11,7 @@ body {
     height: 700px;
     width: 100%;
     background: url(../images/Cuisine\ of\ the\ World.jpg) no-repeat center center/cover;
-    opacity: 1.2;
+    opacity: 1.4;
 }
 
 #hero h2 {
@@ -20,7 +20,18 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white; 
-    font-size: 6em; 
+    font-size: 7em; 
+    text-align: center;
+    
+}
+
+#hero h3 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 2em; 
     text-align: center;
     
 }
@@ -28,12 +39,76 @@ body {
 /* Nav Bar */
 
 #menu {
+    background-color: black;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 8px;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    width: 80%;
-    margin-left: 5%;
+    height: 50px;
+    width: 100%;
+    margin: 0;
     list-style-type: none;
-    text-decoration: none;
 }
 
+#menu a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.nav-container {
+    width: 100%;
+}
+
+.hover a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+/* Main element */
+
+.section1 {
+    margin: 50px 30px;
+}
+
+.section1 h4 {
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.ukranian {
+    margin-top: 400px;
+}
+
+.moroccan {
+    margin-top: 50px;
+}
+
+/* Footer */
+
+#social {
+    height: 50px;
+    margin: 0;
+    padding-top: 8px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social a {
+    color: #fff;
+    font-size: 23px;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+}
