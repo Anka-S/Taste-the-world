@@ -25,7 +25,7 @@ Detailing the existing and planned features and the value they bring.
   - The home page includes a background image of a world map with text overlay to allow the user to see the website heading and get an undertanding of the site.
   - This section introduces the user to Taste the World with an eye catching background image to grab their attention.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Club Ethos](https://github.com/MGW-GH/mac-team/blob/main/assets/images/Cuisine_of_the_World.jpg)
 
 - __Review page__
 
