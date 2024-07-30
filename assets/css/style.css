@@ -11,7 +11,7 @@ body {
     height: 700px;
     width: 100%;
     background: url(../images/Cuisine\ of\ the\ World.jpg) no-repeat center center/cover;
-    opacity: 1.4;
+    opacity: 1.6;
 }
 
 #hero h2 {
@@ -39,7 +39,7 @@ body {
 /* Nav Bar */
 
 #menu {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     margin: 0;
     padding-left: 0;
     padding-top: 8px;
@@ -81,34 +81,14 @@ body {
     text-decoration: underline;
 }
 
+.japanese {
+    margin-top: 25px;
+}
+
 .ukranian {
-    margin-top: 400px;
+    margin-top: 450px;
 }
 
 .moroccan {
     margin-top: 50px;
-}
-
-/* Footer */
-
-#social {
-    height: 50px;
-    margin: 0;
-    padding-top: 8px;
-    width: 100%;
-    background-color: black;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-#social a {
-    color: #fff;
-    font-size: 23px;
-}
-
-.container {
-    padding: 0;
-    margin: 0;
 }
