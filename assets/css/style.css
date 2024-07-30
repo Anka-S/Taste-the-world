@@ -146,4 +146,30 @@ body {
     margin-left: 60px;
 }
 
+/* Footer */
+
+.footer-container  {
+    margin: 0;
+    padding-left: 0;
+    background-color: black;
+}
+
+.footer-container p {
+    margin-left: 0px;
+    color: #fff;
+}
+
+#social {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+#social i {
+    color: #fff;
+}
 
