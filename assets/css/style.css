@@ -37,10 +37,7 @@ body {
 }
 
 /* Nav Bar */
-.img-fluid {
-    height: 300px;
-    width: 100%;
-}
+
 #menu {
     background-color: rgb(0, 0, 0);
     margin: 0;
@@ -61,5 +58,92 @@ body {
     display: flex;
     justify-content: center;
     text-decoration: none;
+    margin-bottom:  12px;
+    font-size: 23px;
 }
+
+.hover a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+/* Main Element */
+
+.container1 {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 100px;
+    margin-right: 0;
+}
+
+.japanese-image {
+    max-width: 600px;
+    float: right;
+    margin-right: 100px;
+}
+
+.japan {
+    text-decoration: underline;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-right: 200px;
+}
+
+.container1 p {
+    margin-right: 200px;
+}
+
+.container2 {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 100px;
+    margin-right: 0px;
+}
+
+.ukranian-image {
+    height: 300px;
+    max-width: 600px;
+    float: left;
+    margin-left: 100px;
+}
+
+.ukraine {
+    text-decoration: underline;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 60px;
+}
+
+.container2 p {
+    margin-left: 200px;
+    margin-right: 60px;
+}
+
+.container3 {
+    display: flex;
+    margin-right: 40px;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+
+.moroccan-image {
+    height: 300px;
+    max-width: 600px;
+    float: right;
+    margin-right: 100px;
+}
+
+.morocco {
+    text-decoration: underline;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 60px;
+}
+
+.container3 p {
+    margin-right: 200px;
+    margin-left: 60px;
+}
+
 
