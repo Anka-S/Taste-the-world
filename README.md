@@ -23,41 +23,36 @@ Detailing the existing and planned features and the value they bring.
 - __The home page background image__
 
   - The home page includes a background image of a world map with text overlay to allow the user to see the website heading and get an undertanding of the site.
-  - This section introduces the user to Taste the World with an eye catching animation to grab their attention
+  - This section introduces the user to Taste the World with an eye catching background image to grab their attention.
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Club Ethos Section__
+- __Review page__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The review page will allow the user to leave feedback on the site based on the recipes which they liked/disliked. 
+  - This will help to identify which parts of the site are giving the user the most value and lead to updates to bring the user back to the site in the future.
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Meetup Times section__
+- __Subscribe page__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - The subscribe page will allow the user to sign up for a monthly newsletter with further recipes from their favourite country by entering name and email details.
+  - This ecourages the user to stay connected with Taste the World and provides added value with further recipes.
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes links to the relevant social media sites for Taste the World. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
+- __The Cusines pages__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - These pages are the crux of the site with the information that the user really wants. It will give an concise intro into the country and its cuisine with one recipe laid out with ingredients and method.
+  - A quote will be included after the recipe in the countries language (and in english).
+  - In will include a bckground image of the countries colours.
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
