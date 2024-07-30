@@ -20,7 +20,7 @@ Detailing the existing and planned features and the value they bring.
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-- __The home page background image__
+- __Home page background image__
 
   - The home page includes a background image of a world map with text overlay to allow the user to see the website heading and get an undertanding of the site.
   - This section introduces the user to Taste the World with an eye catching background image to grab their attention.
