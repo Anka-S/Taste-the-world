@@ -23,11 +23,11 @@
                 <div class="col-md-12">
                     <nav>
                         <ul id="menu">
-                            <li><a href="index.html" class="active">Home</a></li>
-                            <li><a href="#" class="active">Japanese</a></li>
-                            <li><a href="ukranian.html" class="active">Ukrainian</a></li>
-                            <li><a href="#" class="active">Moroccan</a></li>
-                            <li><a href="#" class="active">Review / Subscribe</a></li> 
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Japanese</a></li>
+                            <li><a href="ukrainian.html" class="active">Ukrainian</a></li>
+                            <li><a href="#">Moroccan</a></li>
+                            <li><a href="#">Review / Subscribe</a></li> 
                         </ul>
                     </nav>
                 </div>
@@ -191,7 +191,11 @@
                                 If the dough is not properly sealed/pinched shut they can break open in the boiling
                                 water and lose their filling.</li><br>
                         </ul>
+                
+                            <img src="assets/images/varenyky-dough.webp" alt="Ukrainian national dish - varenyky" class="img-fluid">
+                        
                     </div>
+                
 
                     <!-- Method section -->
 
@@ -202,48 +206,48 @@
 
                             <li>Pour warm water (not boiling water, it should be about 38 degrees) into a deep mixing
                                 bowl. Add flour and salt.
-                                2 cups all-purpose flour,1 cup warm water,1/2 teaspoon salt.</li>
+                                2 cups all-purpose flour,1 cup warm water,1/2 teaspoon salt.</li><br>
 
                             <li> Knead the dough first with a spoon and then with your hands until you get a soft
                                 elastic dough that is a little sticky when touching it. Alternatively, you can also use
                                 a stand mixer. Cover the ball of dough with cling film and let it rest for 30 minutes.
-                            </li>
+                            </li><br>
 
                             <li>While the dough is resting, cut the peeled potatoes into small cubes and put them in a
                                 saucepan. Add water and a pinch of salt and boil the potatoes until soft. Then drain all
-                                the water.</li>
+                                the water.</li><br>
 
                             <li>AIn a frying pan, fry the chopped onion in butter until golden brown, stirring
                                 occasionally. This should take around 5-6 minutes. If you don't like onions, feel free
                                 to omit them.
-                                1 yellow onion,2 tablespoons butter</li>
+                                1 yellow onion,2 tablespoons butter</li><br>
                             <li>Mash the boiled potatoes with a potato masher or a fork. Then add the fried onions, salt
                                 and pepper. If you see that the potatoes are too dry, add a little bit of milk or warm
                                 water until they have a soft, slightly creamy consistency.
-                                1/3 teaspoon salt,1/2 teaspoon black pepper</li>
+                                1/3 teaspoon salt,1/2 teaspoon black pepper</li><br>
                             <li>Once the dough has rested, it will be even softer. It will be easier to work with and it
                                 should not stick to your hands. However, it may stick a little to the table so sprinkle
                                 it with a little bit of flour. Then cut off half of the dough and roll it out until it’s
                                 very thin, approximately 1-2 mm. Next, using a glass or cup, cut out circles about 3
-                                inches in diameter.</li>
+                                inches in diameter.</li><br>
                             <li>On the edge of each of the circles, put a teaspoon of potato and onion filling (don't
-                                add too much filling!).</li>
+                                add too much filling!).</li><br>
                             <li>Cover the filling by folding the dough over and pinch the edges closed. You can pinch
-                                the edges using your thumb and index finger or with a fork.</li>
+                                the edges using your thumb and index finger or with a fork.</li><br>
                             <li>Gather the leftover dough not cut into circles and add it to the other half of the
                                 dough. Roll it out and repeat the steps until you have used up all the dough and
-                                filling. Now the varenyky are ready for boiling.</li>
+                                filling. Now the varenyky are ready for boiling.</li><br>
                             <li>Bring water to a boil in a large saucepan or pot. Lightly salt it (2 pinches of salt to
                                 3 cups of water), then add the dumplings to the water and wait until they float to the
                                 top. After they float, boil for 2 more minutes. If your pot is not very large, you might
-                                have to cook the varenyky in batches.</li>
+                                have to cook the varenyky in batches.</li><br>
                             <li>Transfer the hot dumplings to a bowl and add a little bit of butter (optional). When it
                                 melts on the surface of the hot dumplings, gently stir them so as not to tear the dough,
-                                and that each dumpling is greased with butter. This way they won't stick together.</li>
+                                and that each dumpling is greased with butter. This way they won't stick together.</li><br>
 
                             <li>Transfer the dumplings to a plate, sprinkle with chopped herbs if desired, and serve.
                                 The traditional version is served with sour cream, but there may be other options, such
-                                as ketchup or some other sauce. Enjoy!</li>
+                                as ketchup or some other sauce. Enjoy!</li><br>
 
                         </ol>
                     </div>
@@ -256,14 +260,16 @@
         <!-- Feedback and subscribe section -->
 
         <section class="feedback"> 
-            <div class="container">
+            <div class="container-fluid">
                 <form action="https://formdump.codeinstitute.net" method="post">
-                <div class="col-5 offset-md-3">
+                    <div class="row">
+                    <div class="col-3"></div>
+                <div class="col-12 col-md-6 form-style">  
                 <h4 class="text-center">Leave a review</h4>
-                <p>Your email address will not be published. Required fields are marked *</p>
+                <p class="text-muted">Your email address will not be published. Required fields are marked *</p>
                 <div class="form-group">
                 <label for="textarea" class="form-label">Comment *</label>
-                <textarea class="form-control" id="textarea" name="comment" rows="3" required></textarea>
+                <textarea class="form-control" id="textarea" name="comment" rows="3" placeholder="Leave your review here" required></textarea>
             </div>
             <div class="form-group">
               <label for="name" class="form-label">Write your name *</label>
@@ -280,15 +286,39 @@
             </div>
             <br>
             <div class="form-group">
-                <button type="submit" class="btn btn-primary">Send review</button>
+                <button type="submit" class="btn btn-primary btn-style">Send review</button>
             </div>
-            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
         </form>
         </div>
         </section>
     </main>
-    <footer></footer>
-    <!--Link for Bootstrap -->
+
+    <!-- Footer Section -->
+
+    <footer>
+        <div class="footer-container container-fluid">
+            <div class="footer-section">
+                <ul id="social">
+                    <p class="copyright">Copyright MAC-Team 2024</p>
+                    <li>
+                        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </div>
+            </div>
+      </footer>
+          <!--Link for Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
