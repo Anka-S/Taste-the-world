@@ -13,11 +13,12 @@
 <body>
     <header>
         <section id="hero">
-            <div id="cover-text">
-                <h2>Taste the World</h2>
-                <h3>You can taste the world from your kitchen</h3>
-            </div>
+            <div class="cover-text">
+                <h2 class="align-middle">Taste the World</h2>
+                <h3 class="align-bottom">You can taste the world from your kitchen</h3>
+        </div>
         </section>
+        <!-----
         <nav class="nav-container">
             <div class="row">
                 <div class="col-md-12">
@@ -33,7 +34,47 @@
                 </div>
             </div>
 
-        </nav>
+        </nav>-->
+
+          <!-- Bootstrap navbar -->
+          <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid" >
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link active"  aria-current="page" href="moroccan.html">Moroccan</a>
+                      </li>
+                      <li class="nav-item d-none d-md-block">
+                        <a class="nav-link"  href="ukrainian.html">Ukrainian</a>
+                      </li>
+                      <li class="nav-item d-none d-md-block">
+                        <a class="nav-link" href="japanese.html">Japanese</a>
+                      </li>
+                    
+                  <li class="nav-item dropdown d-sm-block d-md-none ">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Cuisine
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink" >
+                      <li><a class="dropdown-item" href="ukrainian.html">Ukrainian</a></li>
+                      <li><a class="dropdown-item" href="japanese.html">Japanese</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#review">Review / Subscribe</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    
     </header>
     <main>
         <section class="recipe">
