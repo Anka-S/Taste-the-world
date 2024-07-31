@@ -81,6 +81,12 @@ main {
     margin-bottom: 40px;
 }
 
+.recipe h1 {
+    font-family: 'Libre baskerville', sans-serif;
+    text-decoration: underline;
+    font-size: 60px;
+}
+
 .recipe h3 {
     padding: 20px;
 }
