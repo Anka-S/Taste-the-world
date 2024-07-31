@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -12,6 +15,9 @@ body {
     width: 100%;
     background: url(../images/Cuisine\ of\ the\ World.jpg) no-repeat center center/cover;
     opacity: 1.6;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 #hero h2 {
@@ -22,7 +28,8 @@ body {
     color: white; 
     font-size: 7em; 
     text-align: center;
-    
+    text-shadow: 2px 2px 5px rgb(249, 243, 243);
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
 }
 
 #hero h3 {
@@ -33,6 +40,8 @@ body {
     color: white; 
     font-size: 2em; 
     text-align: center;
+    text-shadow: 2px 2px 5px rgb(249, 243, 243);
+    ont-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
     
 }
 
@@ -66,13 +75,39 @@ body {
     border-bottom: 1px solid #fff;
 }
 
+/* Welcome */
+
+.container-welcome {
+    margin-top: 100px;
+    margin-bottom: 120px;
+    padding: 0;
+    text-align: center;
+}
+
+h3, .welcome {
+    margin-bottom: 50px;
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.opening p {
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.container-welcome p {
+    font-family: "Libre Baskerville";
+}
+
 /* Main Element */
 
 .container1 {
     display: flex;
-    margin-left: 40px;
+    padding-right: 0;
+    margin-left: 0px;
     margin-top: 100px;
     margin-right: 0;
+    padding-left: 100px;
 }
 
 .japanese-image {
@@ -86,6 +121,12 @@ body {
     padding-bottom: 10px;
     text-align: center;
     margin-right: 200px;
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.container1 p {
+    font-family: "Libre Baskerville";
 }
 
 .container1 p {
@@ -94,13 +135,15 @@ body {
 
 .container2 {
     display: flex;
-    margin-left: 40px;
+    padding-right: 30px;
+    padding-left: 0;
+    margin-left: 0px;
     margin-top: 100px;
     margin-right: 0px;
 }
 
 .ukranian-image {
-    height: 300px;
+    height: 400px;
     max-width: 600px;
     float: left;
     margin-left: 100px;
@@ -112,22 +155,27 @@ body {
     text-align: center;
     margin-left: 200px;
     margin-right: 60px;
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 .container2 p {
     margin-left: 200px;
     margin-right: 60px;
+    font-family: "libre Baskerville";
 }
 
 .container3 {
     display: flex;
-    margin-right: 40px;
+    padding-right: 0;
+    margin-right: 0px;
     margin-top: 100px;
     margin-left: 0px;
+    padding-left: 30px;
 }
 
 .moroccan-image {
-    height: 300px;
+    height: 400px;
     max-width: 600px;
     float: right;
     margin-right: 100px;
@@ -139,11 +187,27 @@ body {
     text-align: center;
     margin-right: 200px;
     margin-left: 60px;
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 .container3 p {
     margin-right: 200px;
     margin-left: 60px;
+    font-family: "libre Baskerville";
+}
+
+/* Phrase */
+
+.container4 {
+    margin: 100px 0;
+    padding-right: 0;
+}
+
+.phrase {
+    text-align: center;
+    font-family: "Caveat", Arial, Helvetica, sans-serif;
+    font-size: 100px;
 }
 
 /* Footer */
@@ -179,3 +243,15 @@ body {
     font-size: 50x;
 }
 
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+.block-on-tablet {
+        display: block;
+    }
+
+.block-on-tablet {
+    display: none;
+}
+
+}
