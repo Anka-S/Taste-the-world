@@ -40,7 +40,7 @@ Detailing the existing and planned features and the value they bring.
   - The footer section includes links to the relevant social media sites for Taste the World. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+<img src="assets/images/Screenshot 2024-07-31 7.35.44 PM.png">
 
 - __The Cusines pages__
 
@@ -49,7 +49,7 @@ Detailing the existing and planned features and the value they bring.
   - A quote will be included after the recipe in the countries language (and in english).
   - It will include a background image of the countries colours.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+<img src="assets/images/Screenshot 2024-07-31 7.37.39 PM.png">
 
 
 ### Features Left to Implement
