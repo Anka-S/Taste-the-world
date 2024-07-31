@@ -51,18 +51,39 @@ Detailing the existing and planned features and the value they bring.
 - __The Cusines pages__
 
   - These pages are the crux of the site with the information that the user really wants. It will give an concise intro into the country and its cuisine with one recipe laid out with ingredients and method.
+  - A vegetarian or vegan option will be included alongside each recipe.
   - A quote will be included after the recipe in the countries language (and in english).
-  - In will include a bckground image of the countries colours.
+  - It will include a background image of the countries colours.
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
-- Another feature idea
+- __Links to food restaurants__
+
+  - Including links on the different cuisine pages that takes the user to more recipes based on the chosen cuisine.
+
+
+## UX/UI
+
+- __UX__
+
+  The site will be presented as simple but attractive and easy to navigate. Users can find their preferred cuisine with some culinary history and a recipe to follow. Users who want further interaction can leave a review or subscribe to receive monthly comms with new recipes based on their favourite cuisine.
+
+- __User Stories__
+
+  - As a user of this website, I want to easily navigate to my desired cuisine without scrolling down the whole page.
+  - As a user, I want to find new recipes that I can cook at home.
+  - As a user, I want to know which page I'm on so it's easier to navigate.
+  - As a user, I want to be able to read the content easily so that I understand and like visiting the site.
+  - As a user, I want to be able to follow links to more receipes based on my preferred cuisine.
+  - As a user, I want to see pictures of the receipes so I can see what I'm going to cook.
+  - As a user, I want to see vegetarian options so that I can use the recipes for vegetarians.
+  - As the product owner, I want to be able to add and remove receipes so the site is constantly updating and giving the user more value.
+  - As the product owner, I would like the site to be responsive to all devices small to large so that the uer has the best experience regardless of device.
+  - As the product owner, I would like to receive feedback from users so we can update the site for improved user experience.
+  
 
 ## Testing 
 
