@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Libre baskerville', sans-serif;
+}
+
+/* Hero Section */
+
+#hero {
+    height: 700px;
+    width: 100%;
+    background: url(../images/Cuisine\ of\ the\ World.jpg) no-repeat center center/cover;
+    opacity: 1.6;
+}
+
+#hero h2 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 5rem; 
+    text-align: center;
+    text-shadow: 2px 1px rgb(68, 44, 10);
+    
+}
+
+#hero h3 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 2em; 
+    text-align: center;
+    text-shadow: 2px 1px rgb(68, 44, 10);
+    
+}
+
+/* Nav Bar */
+
+    #menu {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding-left: 0;
+    padding-top: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    list-style-type: none;
+}
+
+#menu a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+/* Main background color */
+
+main {
+    color: #2f2d2b;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+/* Ukrainian cuisine page */
+
+.recipe {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0;
+    text-indent: 10px;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+}
+
+.recipe h1 {
+    font-family: 'Libre baskerville', sans-serif;
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+.recipe h3 {
+    padding: 20px;
+}
+
+/* Ingredients */
+
+.ingredients {
+    padding: 15px 5px;
+}
+.unordered-list {
+    list-style-type: none;
+    padding: 15px 5px;
+}
+.unordered-list li {
+    line-height: 1.8;
+}
+
+/* Method */
+
+.method {
+    padding: 25px 5px;
+    line-height: 1.8;
+}
+
+/* Feedback form */
+.feedback {
+    display: flex;
+}
+.form {
+    position: relative;
+    justify-content: center;
+}
