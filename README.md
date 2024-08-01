@@ -139,5 +139,5 @@ This section will reference any code used from other repositories as well citati
 ### Media
 
 - The image for the header background was taken from 
-- The main background colour gradient was taken from Web gradients (https://webgradients.com/)
--The colour gradient used on the cuisine pages' title was taken from
+- The main background colour gradient was taken from Web Gradients (https://webgradients.com/)
+- The colour gradient used on the cuisine pages' title was taken from CS Gradient (https://cssgradient.io/blog/css-gradient-text/)
