@@ -106,63 +106,45 @@ h3, .welcome {
     padding-right: 0;
     margin-left: 0px;
     margin-top: 100px;
+    margin-bottom: 100px;
     margin-right: 0;
-    padding-left: 100px;
-}
-
-.japanese-image {
-    max-width: 600px;
-    float: right;
 }
 
 .japan {
     text-decoration: underline;
-    padding-bottom: 10px;
     text-align: center;
-    margin-right: 200px;
-    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-family: "Libre Baskerville";
+}
+
+.japanese-image {
+    margin-top: 50px;
 }
 
 .container1 p {
     font-family: "Libre Baskerville";
 }
 
-.container1 p {
-    margin-right: 200px;
-}
-
 .container2 {
     display: flex;
-    padding-right: 30px;
-    padding-left: 0;
+    padding: 0;
     margin-left: 0px;
-    margin-top: 100px;
+    margin-bottom: 100px;
     margin-right: 0px;
-}
-
-.ukranian-image {
-    height: 500px;
-    max-width: 600px;
-    float: left;
-    margin-left: 100px;
-    margin-top: 20px;
 }
 
 .ukraine {
     text-decoration: underline;
-    padding-bottom: 10px;
     text-align: center;
-    margin-left: 200px;
-    margin-right: 60px;
-    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-family: "Libre Baskerville";
+}
+
+.ukranian-image {
+    margin-top: 50px;
+    padding-left: 20px;
 }
 
 .container2 p {
-    margin-left: 200px;
-    margin-right: 60px;
-    font-family: "libre Baskerville";
+    font-family: "Libre Baskerville";
 }
 
 .container3 {
@@ -174,26 +156,18 @@ h3, .welcome {
     padding-left: 30px;
 }
 
-.moroccan-image {
-    height: 500px;
-    max-width: 600px;
-    float: right;
-    margin-top: 20px;
-}
-
 .morocco {
     text-decoration: underline;
-    padding-bottom: 10px;
     text-align: center;
-    margin-right: 200px;
-    margin-left: 60px;
-    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-family: "Libre Baskerville";
+}
+
+.moroccan-image {
+    margin-top: 50px;
+    padding-right: 10px;
 }
 
 .container3 p {
-    margin-right: 200px;
-    margin-left: 60px;
     font-family: "libre Baskerville";
 }
 
@@ -291,6 +265,7 @@ h3, .welcome {
         padding-left: 20px;
         padding-right: 20px;
     }
+
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
