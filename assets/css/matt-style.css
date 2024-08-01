@@ -106,50 +106,6 @@ main {
 
 /* Style header */
 
-#ukr-header {
-    font-family: 'Libre baskerville', sans-serif;
-    text-decoration: underline;
-    font-size: 60px;
-    background-color: #FBF611;
-  
-    /* Create the gradient. */
-    background-image: linear-gradient(90deg, rgba(251, 246, 17, 1) 20%, rgba(8, 68, 251, 1) 100%);
-    
-    /* Set the background size and repeat properties. */
-    background-size: 100%;
-    background-repeat: repeat;
-  
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    
-    /* Older browsers */
-    background-clip: text;
-}
-
-#mor-header {
-    font-family: 'Libre baskerville', sans-serif;
-    text-decoration: underline;
-    font-size: 60px;
-    background: linear-gradient(0deg, rgb(223, 6, 6) 2%, rgb(37, 156, 8) 100%);
-     /* Set the background size and repeat properties. */
-     background-size: 100%;
-     background-repeat: repeat;
-   
-     /* Use the text as a mask for the background. */
-     /* This will show the gradient as a text color rather than element bg. */
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent; 
-     -moz-background-clip: text;
-     -moz-text-fill-color: transparent;
-     
-     /* Older browsers */
-     background-clip: text;
-}
-
 #jpn-header {
     font-family: 'Libre baskerville', sans-serif;
     text-decoration: underline;
@@ -157,7 +113,7 @@ main {
     background-color: #f3f3f0;
   
     /* Create the gradient. */
-    background-image: linear-gradient(90deg, rgb(247, 247, 241) 10%, rgb(232, 6, 6) 100%);
+    background-image: linear-gradient(90deg, rgb(247, 247, 241) 2%, rgb(232, 6, 6) 100%);
     
     /* Set the background size and repeat properties. */
     background-size: 100%;
