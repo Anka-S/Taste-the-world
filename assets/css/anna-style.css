@@ -97,18 +97,14 @@ body {
     --bs-gutter-y: 0;
     padding-top: 0;
 }
- .navbar a {
-   
-    
- }
-
+ 
 .navbar-toggler{
     margin: 5px 0;
 }
+
 a:hover {
     border-bottom: 1px solid #fff;
     color: #fff;
-    font-size: 23px;
 }
 
 .active {
@@ -227,12 +223,14 @@ ol li {
 .container4 {
     margin: 100px 0 0 0;
     padding-right: 0;
+    width: 90%;
 }
 
 .phrase {
     text-align: center;
     font-family: "Caveat", Arial, Helvetica, sans-serif;
     font-size: 100px;
+    padding-bottom: 100px;
 }
 
 /* Feedback form */
@@ -261,6 +259,10 @@ ol li {
 
     
     width: 100%;
+}
+
+.form-label {
+padding: 7px 0;
 }
 
 .btn-style {
