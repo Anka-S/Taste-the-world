@@ -115,6 +115,13 @@ h3, .welcome {
 
 /* Main Element */
 
+main a {
+    text-decoration: none;
+    color: #343a40;
+}
+main a:hover {
+    color: black;
+}
 .container1 {
     display: flex;
     padding-right: 0;
