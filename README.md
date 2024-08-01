@@ -18,7 +18,7 @@ Detailing the existing and planned features and the value they bring.
   - This section will allow the user to navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
   - The use of the active style selector will enable the user to know the page they are currently on by underlining it.
 
-<img src="assets/images/Screenshot 2024-07-31 7.29.35 PM.png">
+<img src="assets/images/Screenshot 2024-08-01 2.16.00 PM.png">
 
 - __Home page background image__
 
@@ -33,7 +33,7 @@ Detailing the existing and planned features and the value they bring.
   - It will allow the user to sign up for a monthly newsletter with further recipes from their favourite country by entering name and email details.
   - This ecourages the user to stay connected with Taste the World and provides added value with further recipes.
 
-<img src="assets/images/Screenshot 2024-07-31 7.34.13 PM.png">
+<img src="assets/images/Screenshot 2024-08-01 2.16.27 PM.png">
 
 - __The Footer__ 
 
@@ -89,11 +89,10 @@ Detailing the existing and planned features and the value they bring.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- __iPad view__
+<img src="assets/images/IMG_6126.jpg">
+<img src="assets/images/IMG_6127.jpg">
+<img src="assets/images/IMG_6129.jpg">
 
 - __Lighthouse__
   - The lighthouse test is used to give a score for performance, SEO, accessibility and best practices.
@@ -107,9 +106,6 @@ You should also mention in this section any interesting bugs or problems you dis
 - CSS
   - No errors were found but 16 warnings when passing through the official [(Jigsaw) validator]<img src="assets/images/Screenshot 2024-08-01 at 13.23.35.png">
 
-### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Deployment
 
