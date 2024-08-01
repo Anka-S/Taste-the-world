@@ -101,9 +101,9 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator] <img src="assets/images/Screenshot 2024-08-01 at 13.23.19.png">
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found but 16 warnings when passing through the official [(Jigsaw) validator]<img src="assets/images/Screenshot 2024-08-01 at 13.23.35.png">
 
 ### Unfixed Bugs
 
@@ -111,7 +111,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+This section describes the process we went through to deploy the project to GitHub.
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -130,7 +130,6 @@ This section will reference any code used from other repositories as well citati
 - The intro text on Japan was taken from
 - The intro text on Ukraine was taken from
 - The intro text on Morocco was taken from
-- The colour gradient used on the cuisine pages' title was taken from
 - The CDN framework used for ready made styling was Bootstrap 5 (https://getbootstrap.com/docs/5.0/getting-started/download/)
 - The fonts that have been imported are from Google fonts (https://fonts.google.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
@@ -138,4 +137,5 @@ This section will reference any code used from other repositories as well citati
 ### Media
 
 - The image for the header background was taken from 
-- The images used for the gallery page were taken from this other open source site
+- The main background colour gradient was taken from Web gradients (https://webgradients.com/)
+-The colour gradient used on the cuisine pages' title was taken from
