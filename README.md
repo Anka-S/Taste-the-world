@@ -125,15 +125,19 @@ This section will reference any code used from other repositories as well citati
 
 ### Content 
 
-- The intro text on Japan was taken from
-- The intro text on Ukraine was taken from
-- The intro text on Morocco was taken from
+- The intro text on all the countries was modified from chatGPT (https://chatgpt.com/)
+- The borsch recipe was taken from BBC Good Food (https://www.bbcgoodfood.com)
+- The varanyky recipe was taken from (https://www.recipesfromeurope.com/varenyky/)
+- The moroccan receipes were taken from (https://www.thespruceeats.com/)
 - The CDN framework used for ready made styling was Bootstrap 5 (https://getbootstrap.com/docs/5.0/getting-started/download/)
 - The fonts that have been imported are from Google fonts (https://fonts.google.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The image for the header background was taken from 
+- The image for the header background was taken from Google images (https://images.google.co.uk/) 
 - The main background colour gradient was taken from Web Gradients (https://webgradients.com/)
 - The colour gradient used on the cuisine pages' title was taken from CS Gradient (https://cssgradient.io/blog/css-gradient-text/)
+- The images on the Ukrainian and Moroccan pages were taken/made from firefly (https://firefly.adobe.com/inspire/images)
+- The ramen image for the Japanese page was taken from the NY times (https://cooking.nytimes.com/recipes/1024748-shoyu-ramen)
+- The curry rice image for the Japanese page was taken from Just One Cook Book (https://www.justonecookbook.com/simple-chicken-curry/)
