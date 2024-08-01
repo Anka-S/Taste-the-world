@@ -13,6 +13,7 @@ body {
 #hero {
     height: 700px;
     width: 100%;
+    /* Image taken from Google Images */
     background: url(../images/Cuisine\ of\ the\ World.jpg) no-repeat center center/cover;
     opacity: 1.6;
     -webkit-background-size: cover;
