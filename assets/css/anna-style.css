@@ -74,6 +74,7 @@ body {
     justify-content: center;
     text-decoration: none;
 }
+
 /* Navbar Bootstrap*/
 
 .bg-dark {
@@ -86,12 +87,20 @@ body {
     margin-bottom: 10px;
     justify-content: space-between;
     width: 100%;
+    font-size: 23px;
+}
+.navbar-nav a{
+    font-size: 23px;
 }
 .navbar {
     --bs-gutter-x: 0;
     --bs-gutter-y: 0;
     padding-top: 0;
 }
+ .navbar a {
+   
+    
+ }
 
 .navbar-toggler{
     margin: 5px 0;
@@ -99,6 +108,7 @@ body {
 a:hover {
     border-bottom: 1px solid #fff;
     color: #fff;
+    font-size: 23px;
 }
 
 .active {
@@ -212,7 +222,21 @@ ol li {
     margin-bottom: 15px;
 }
 
+/* Phrase */
+
+.container4 {
+    margin: 100px 0 0 0;
+    padding-right: 0;
+}
+
+.phrase {
+    text-align: center;
+    font-family: "Caveat", Arial, Helvetica, sans-serif;
+    font-size: 100px;
+}
+
 /* Feedback form */
+
 .feedback {
     padding-bottom: 70px;
     padding-left: var(--bs-gutter-x, 2.90rem);
