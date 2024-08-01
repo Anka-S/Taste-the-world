@@ -14,11 +14,11 @@ Detailing the existing and planned features and the value they bring.
 
 - __Navigation Bar__
 
-  - Found on all  pages, the full responsive navigation bar includes links to the Home page, Cuisine, Review and Subscribe pages and is identical in each page to allow for easy navigation.
-  - This section will allow the user to navigate with ease from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  - Found on all  pages, the full responsive navigation bar includes links to the Home, Japanese, Ukrainian and Moroccan pages as well as a local link to the Review section on each page to allow for easy navigation.
+  - This section will allow the user to navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
   - The use of the active style selector will enable the user to know the page they are currently on by underlining it.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+<img src="assets/images/Screenshot 2024-07-31 7.29.35 PM.png">
 
 - __Home page background image__
 
@@ -27,26 +27,20 @@ Detailing the existing and planned features and the value they bring.
 
 <img src="assets/images/Cuisine of the World.jpg">
 
-- __Review page__
+- __Review section__
 
-  - The review page will allow the user to leave feedback on the site based on the recipes which they liked/disliked. 
-  - This will help to identify which parts of the site are giving the user the most value and lead to updates to bring the user back to the site in the future.
-
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- __Subscribe page__
-
-  - The subscribe page will allow the user to sign up for a monthly newsletter with further recipes from their favourite country by entering name and email details.
+  - The review section will allow the user to leave feedback on the site helping to identify which parts of the site are giving the user the most value and lead to updates to bring the user back to the site in the future.
+  - It will allow the user to sign up for a monthly newsletter with further recipes from their favourite country by entering name and email details.
   - This ecourages the user to stay connected with Taste the World and provides added value with further recipes.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+<img src="assets/images/Screenshot 2024-07-31 7.34.13 PM.png">
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Taste the World. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+<img src="assets/images/Screenshot 2024-07-31 7.35.44 PM.png">
 
 - __The Cusines pages__
 
@@ -55,7 +49,7 @@ Detailing the existing and planned features and the value they bring.
   - A quote will be included after the recipe in the countries language (and in english).
   - It will include a background image of the countries colours.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+<img src="assets/images/Screenshot 2024-07-31 7.37.39 PM.png">
 
 
 ### Features Left to Implement
