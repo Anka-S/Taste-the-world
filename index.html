@@ -16,16 +16,40 @@
             <h3>You can taste the world from your kitchen</h3>
          </div>
        </section>
-        <nav class="nav-container hover">
-                <nav>
-                    <ul id="menu">
-                        <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="japanese.html" class="active">Japanese</a></li>
-                        <li><a href="ukrainian.html" class="active">Ukrainian</a></li>
-                        <li><a href="moroccan.html" class="active">Moroccan</a></li> 
-                    </ul>
-                </nav>
-        </nav>
+       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" class="nav-link active" aria-current="page">Home</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ukrainian.html">Ukrainian</a>
+                  </li>
+                  <li class="nav-item d-none d-md-block">
+                    <a class="nav-link" href="moroccan.html">Moroccan</a>
+                  </li>
+                  <li class="nav-item d-none d-md-block">
+                    <a class="nav-link" href="japanese.html">Japanese</a>
+                  </li>
+                
+              <li class="nav-item dropdown d-sm-block d-md-none ">
+                <a class="nav-link dropdown-toggle " href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cuisine
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="moroccan.html">Moroccan</a></li>
+                  <li><a class="dropdown-item" href="japanese.html">Japanese</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
         <div class="container-welcome container-fluid">
