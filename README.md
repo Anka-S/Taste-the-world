@@ -95,8 +95,10 @@ In addition, you should mention in this section how your project looks and works
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+- __Lighthouse__
+  - The lighthouse test is used to give a score for performance, SEO, accessibility and best practices.
+  - We returned scores of 74, 91, 91 & 100 respectively meaning the performance could be improved as our hero image takes 7.8 secs to load.
+  <img src="assets/images/Screenshot 2024-08-01 at 13.27.26.png">
 
 ### Validator Testing 
 
