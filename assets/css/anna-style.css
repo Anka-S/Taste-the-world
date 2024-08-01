@@ -1,17 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     /*outline: 1px solid red;*/
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 }
 
 body {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Libre baskerville', sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 /* Hero Section */
@@ -25,25 +22,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-/*
-.cover-text {
-    padding-top: 4rem;
-    color: white;
-    text-align: center;
-    text-shadow: 2px 1px rgb(68, 44, 10);
-}
-.cover-text h2 {
-    font-size: 5rem;
-    padding-top: 20%;
 
-}
-
-.cover-text h3 {
-    color: white;
-    font-size: 1.5rem;
-    padding-top: 30px;
-
-}*/
 
 #hero h2 {
     position: absolute;
