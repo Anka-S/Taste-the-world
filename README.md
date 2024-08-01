@@ -58,6 +58,9 @@ Detailing the existing and planned features and the value they bring.
 
   - Including links on the different cuisine pages that takes the user to more recipes based on the chosen cuisine.
 
+- __Review/subscribe pop-out__
+  - Use bootstrap to create a pop-out feature where users can enter their details and subscribe to monthly emails with more recipes. This is a better user experience.
+
 
 ## UX/UI
 
