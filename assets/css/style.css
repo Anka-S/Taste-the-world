@@ -5,8 +5,8 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Arial', sans-serif;
-}
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+    }
 
 /* Hero Section */
 
@@ -47,6 +47,10 @@ body {
 }
 
 /* Nav Bar */
+
+.nav {
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+}
 
 .bg-dark {
     --bs-bg-opacity: 1;
@@ -274,7 +278,6 @@ main {
 
 .ukranian-image {
     margin-top: 50px;
-    padding-left: 20px;
 }
 
 .container2 p {
@@ -331,12 +334,12 @@ main {
 
 
 #social {
-    text-align: center;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style-type: none;
     margin: 0;
+    padding: 0;
     color: #fff;
 }
 

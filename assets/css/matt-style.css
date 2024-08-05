@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: Arial, sans-serif;
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
 }
 
 /* Hero Section */
@@ -53,6 +53,10 @@ body {
 }
 
 /* Navbar Bootstrap*/
+
+.nav {
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+}
 
 .bg-dark {
     --bs-bg-opacity: 1;
@@ -182,7 +186,6 @@ ol li {
 /* Feedback form */
 .feedback {
     padding-bottom: 70px;
-    padding-left: var(--bs-gutter-x, 2.90rem);
     width: 90%;
 }
 
@@ -240,6 +243,7 @@ ol li {
     align-items: center;
     list-style-type: none;
     margin: 0;
+    padding: 0;
     color: #fff;
 }
 
@@ -263,7 +267,7 @@ ol li {
 .phrase {
     text-align: center;
     font-family: "Caveat", Arial, Helvetica, sans-serif;
-    font-size: 100px;
+    font-size: 5rem;
 }
 
 
