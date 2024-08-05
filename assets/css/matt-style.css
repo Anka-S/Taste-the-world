@@ -184,9 +184,10 @@ ol li {
 }
 
 /* Feedback form */
+
 .feedback {
     padding-bottom: 70px;
-    width: 90%;
+    margin: 0;
 }
 
 .feedback p {
