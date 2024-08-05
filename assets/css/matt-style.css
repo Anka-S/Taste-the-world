@@ -14,7 +14,7 @@ body {
 #hero {
     height: 700px;
     width: 100%;
-    background: url(../images/Cuisine\ of\ the\ World.jpg) no-repeat center center/cover;
+    background: url(../images/Cuisine-of-the-World.webp) no-repeat center center/cover;
     opacity: 1.6;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -95,6 +95,12 @@ button:focus {
 .active {
     border-bottom: 1px solid #fff;
 }
+
+.dropdown-menu-dark .dropdown-item:focus, .dropdown-menu-dark .dropdown-item:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
 
 
 /* Main background color */
