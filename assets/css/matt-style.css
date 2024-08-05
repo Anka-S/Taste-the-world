@@ -9,7 +9,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
 /* Hero Section */
 
 #hero {
@@ -49,30 +48,8 @@ body {
 }
 
 
-/* Nav Bar */
-
-
-
-#menu {
-    background-color: rgb(0, 0, 0);
+.row {
     margin: 0;
-    padding-left: 0;
-    padding-top: 8px;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    height: 50px;
-    width: 100%;
-    margin: 0;
-    list-style-type: none;
-}
-
-#menu a {
-    color: white;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
 }
 
 /* Navbar Bootstrap*/
@@ -106,7 +83,7 @@ button:focus {
     outline: 1px solid;
 }
 
-a:hover {
+.navbar a:hover {
     border-bottom: 1px solid #fff;
     color: #fff;
 }
@@ -251,29 +228,29 @@ ol li {
     margin: 0;
     padding-left: 0;
     padding-right: 0;
-    padding-top: 5px;
+    padding-top: 10px;
     background-color: black;
 }
 
-.footer-container p {
-    margin-left: 0px;
-    color: #fff;
-}
 
 #social {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
-    margin-bottom: 0;
-    margin-top: 10px;
+    margin: 0;
+    color: #fff;
 }
 
 #social a {
     color: #fff;
     font-size: 50px;
+}
+
+#social a:hover {
+    color: #9e9d9bf3;
+    border: 0;
 }
 
 /* Phrase */
@@ -301,21 +278,9 @@ ol li {
 
 }
 
-
-
-
-
 #social a {
     color: #fff;
     font-size: 20px;
-}
-
-
-
-
-#social a:hover {
-    color: #9e9d9bf3;
-    border: 0;
 }
 
 @media screen and (max-width: 320px) {
